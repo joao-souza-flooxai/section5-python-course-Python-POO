@@ -22,6 +22,8 @@ class LogFileMixin(Log):
 class LogPrintMixin(Log):
     def _log(self, msg):
         print(msg)
+    def logPrint(self, msg):
+        print(msg)
 
 
 if __name__== '__main__':
